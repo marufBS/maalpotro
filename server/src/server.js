@@ -18,11 +18,11 @@ app.use('/api/users', userRoutes);
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const clientDist = path.join(__dirname, '../../client/dist');
+const clientDist = path.join(__dirname, '../../client2/dist');
 app.use('/', express.static(clientDist));
 
 
-app.use('/', express.static(path.join(__dirname, '../../client/dist')))
+app.use('/', express.static(path.join(__dirname, '../../client2/dist')))
 
 // app.get('*', (_req, res) => {
 // //   res.sendFile(path.join(clientDist, 'index.html'));
