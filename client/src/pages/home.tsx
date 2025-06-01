@@ -1,9 +1,9 @@
 
 import DefaultLayout from "@/layouts/default";
-import { Input } from "@heroui/input";
+// import { Input } from "@heroui/input";
 import { Button } from "@heroui/button";
-import { FaSearch } from "react-icons/fa"
-import { useNavigate } from "react-router-dom";
+// import { FaSearch } from "react-icons/fa"
+// import { useNavigate } from "react-router-dom";
 import SearchBar from "@/components/searchBar";
 import useBreakpoint from "@/hooks/useBreakpoint";
 
